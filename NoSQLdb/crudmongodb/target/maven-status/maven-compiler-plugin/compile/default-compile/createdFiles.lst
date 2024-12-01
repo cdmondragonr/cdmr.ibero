@@ -1,0 +1,6 @@
+com\ibero\crudmongodb\service\PersonaService.class
+com\ibero\crudmongodb\api\PersonaRepository.class
+com\ibero\crudmongodb\model\Persona.class
+com\ibero\crudmongodb\CrudmongodbApplication.class
+com\ibero\crudmongodb\service\PersonaServiceImpl.class
+com\ibero\crudmongodb\controller\PersonaController.class
