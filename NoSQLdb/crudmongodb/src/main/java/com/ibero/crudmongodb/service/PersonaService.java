@@ -14,7 +14,7 @@ import java.util.Optional;
  */
 public interface PersonaService {
     
-    List<Persona> GetAllPersonas();
+    List<Persona> getAllPersonas();
     Optional<Persona>getPersonaById(Long id);
     Persona savePersona(Persona persona);
     void deletePersonaById(Long id);

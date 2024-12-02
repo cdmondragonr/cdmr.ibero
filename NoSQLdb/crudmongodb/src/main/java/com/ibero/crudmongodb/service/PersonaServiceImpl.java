@@ -9,18 +9,21 @@ import com.ibero.crudmongodb.model.Persona;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author cdmrr
  */
+
+@Service
 public class PersonaServiceImpl implements PersonaService{
     
     @Autowired
     private PersonaRepository personaRepository;
     
     @Override
-    public List<Persona> GetAllPersonas() {
+    public List<Persona> getAllPersonas() {
         return personaRepository.findAll();
     }
 
